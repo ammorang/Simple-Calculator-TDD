@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="calculator.js"></script>
+	<script src="main.js"></script>
+</head>
+<body class="body">
+	<h1 class="title">Simple Calculator</h1>
+
+	<input type="text" 
+		   class="input" 
+		   title="calculator"
+		   placeholder="Enter operation"
+		   value="1+2"
+		   onchange="calculate(this.value)">
+
+	<div class="result-container">
+		<div class="title">Result</div>
+		<span id="result">3</span>
+	</div>
+</body>
+</html>
